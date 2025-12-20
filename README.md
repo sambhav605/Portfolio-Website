@@ -1,16 +1,90 @@
-# React + Vite
+# Sambhav Regmi - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website for Sambhav Regmi, an engineering student at IOE Pulchowk Campus, Kathmandu, Nepal.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Animated background with floating particles
+- Responsive design for all devices
+- Sections: Hero, About Me, Technical Skills, Projects, Connect
+- Dark theme with greyish color palette
+- Integration with GitHub and LinkedIn
 
-## React Compiler
+## Setup Instructions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Option 1: Using shadcn CLI (Recommended)
 
-## Expanding the ESLint configuration
+1. Download the ZIP file from v0
+2. Extract the ZIP file
+3. Open your terminal and navigate to the extracted folder
+4. Run the following command:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npx shadcn@latest init
+```
+
+5. Once installed, start the development server:
+
+```bash
+npm run dev
+```
+
+6. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+### Option 2: Manual Setup
+
+1. Download the ZIP file from v0
+2. Extract the ZIP file
+3. Open your terminal and navigate to the extracted folder
+4. Install dependencies:
+
+```bash
+npm install
+```
+
+5. Start the development server:
+
+```bash
+npm run dev
+```
+
+6. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## Customization
+
+### Adding Your Profile Picture
+
+Replace the placeholder image in `components/hero.tsx`:
+
+1. Add your profile image to the `public` folder (e.g., `public/profile.jpg`)
+2. In `components/hero.tsx`, update the image source:
+
+```tsx
+<img
+  src="/profile.jpg"
+  alt="Sambhav Regmi"
+  className="w-full h-full object-cover"
+/>
+```
+
+### Updating Content
+
+- **Personal Info**: Edit `components/hero.tsx`
+- **About Section**: Edit `components/about-me.tsx`
+- **Projects**: Edit `components/projects.tsx`
+- **Skills**: Edit `components/technical-skills.tsx`
+- **Contact**: Edit `components/connect.tsx`
+
+## Technologies Used
+
+- Next.js 16
+- React 19
+- Tailwind CSS v4
+- TypeScript
+- shadcn/ui components
+
+## Contact
+
+- Email: sambhavregmi999@gmail.com
+- GitHub: [github.com/sambhav605](https://github.com/sambhav605)
+- LinkedIn: [linkedin.com/in/sambhav-regmi-350512321](https://www.linkedin.com/in/sambhav-regmi-350512321/)
