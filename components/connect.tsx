@@ -62,7 +62,7 @@ export function Connect() {
         </div>
 
         <footer className="mt-20 pt-8 border-t border-border text-center text-muted-foreground">
-          <p>© 2025 Sambhav Regmi. Built with Next.js & Tailwind CSS</p>
+          <p>© 2025 Sambhav Regmi.</p>
         </footer>
       </div>
     </section>
