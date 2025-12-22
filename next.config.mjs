@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // <--- Add this line
+  output: 'export',
+  // Add this new section:
+  turbopack: {
+    root: '.', 
+  },
   typescript: {
     ignoreBuildErrors: true,
   },
