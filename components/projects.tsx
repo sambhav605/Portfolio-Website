@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Github } from "lucide-react"
+import Image from "next/image"
 
 const projects = [
   {
@@ -48,10 +49,11 @@ export function Projects() {
               className="group overflow-hidden bg-card border-border hover:border-primary/50 transition-all duration-300"
             >
               <div className="relative h-48 overflow-hidden bg-secondary">
-                <img
+                <Image
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-card to-transparent opacity-60" />
               </div>
