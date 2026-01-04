@@ -20,12 +20,12 @@ const projects = [
     github: "https://github.com/sambhav605/ParkSense-IOT-Arduino",
   },
   {
-    title: "Student-Assistant-Lab",
+    title: "Setu",
     description:
-      "AI-powered virtual assistant designed to help students with lab work and coursework. Features natural language processing and smart recommendations for learning resources.",
-    tags: ["Python", "NLP", "AI/ML", "Education Tech", "API Integration"],
-    image: "/students-working-in-engineering-lab.jpg",
-    github: "https://github.com/sambhav605/Student-Assistant-Lab",
+      "AI-powered legal assistance platform empowering Nepali citizens with a law chatbot for legal queries, bias detection tool for analyzing discriminatory language in documents, and intelligent letter generator for government correspondence..",
+    tags: ["Next.js", "TypeScript", "Python", "FastAPI", "AI/ML", "RAG", "Tailwind CSS"],
+    image: "/setu.png",
+    github: "https://github.com/sambhav605/Setu",
   },
 ]
 
