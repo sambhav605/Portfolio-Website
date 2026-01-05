@@ -25,7 +25,7 @@ const projects = [
     description:
       "AI-powered legal assistance platform empowering Nepali citizens with a law chatbot for legal queries, bias detection tool for analyzing discriminatory language in documents, and intelligent letter generator for government correspondence..",
     tags: ["Next.js", "TypeScript", "Python", "FastAPI", "AI/ML", "RAG", "Tailwind CSS"],
-    image: "/setu.png",
+    image: "/setu.jpg",
     github: "https://github.com/sambhav605/Setu",
   },
 ]
