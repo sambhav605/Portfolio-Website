@@ -64,6 +64,11 @@ export function Hero() {
             >
               Get in Touch
             </Button>
+            <Link href="https://bhugol.sambhavregmi.com.np/" target="_blank" rel="noopener noreferrer">
+    <Button size="lg" variant="outline" className="border-border hover:bg-secondary bg-transparent gap-2">
+      🗺️ Play Bhugol
+    </Button>
+  </Link>
           </div>
         </div>
       </div>
