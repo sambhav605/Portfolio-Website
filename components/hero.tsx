@@ -1,5 +1,4 @@
 "use client"
-
 import { Button } from "@/components/ui/button"
 import { ChevronDown } from "lucide-react"
 import Link from "next/link"
@@ -18,6 +17,19 @@ export function Hero() {
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-72 h-72 bg-primary rounded-full blur-3xl" />
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent rounded-full blur-3xl" />
+      </div>
+
+      {/* Bhugol floating button - top right */}
+      <div className="absolute top-6 right-6 z-20">
+        <Link href="https://bhugol.sambhavregmi.com.np/" target="_blank" rel="noopener noreferrer">
+          <Button
+            className="gap-2 bg-primary/10 border border-primary/50 text-primary backdrop-blur-sm
+                       hover:bg-primary hover:text-primary-foreground hover:scale-105
+                       hover:shadow-lg hover:shadow-primary/40 transition-all duration-200"
+          >
+            🗺️ Play Bhugol
+          </Button>
+        </Link>
       </div>
 
       <div className="relative z-10 max-w-6xl flex flex-col md:flex-row items-center gap-12">
@@ -39,17 +51,14 @@ export function Hero() {
           <div className="inline-block mb-3 px-3 py-1 bg-secondary/50 rounded-full text-xs text-muted-foreground border border-border">
             Engineering Student • Pulchowk Campus
           </div>
-
           <h1 className="text-4xl md:text-6xl font-bold mb-4 text-balance">
             Hi, I&apos;m <span className="text-primary">Sambhav Regmi</span>
           </h1>
-
           <p className="text-lg md:text-xl text-muted-foreground mb-6 leading-relaxed max-w-2xl">
             {
               "I'm a passionate engineering student at IOE, Pulchowk Campus in Kathmandu, Nepal, exploring the intersection of artificial intelligence, machine learning, and robotics to solve real-world problems."
             }
           </p>
-
           <div className="flex flex-wrap gap-3 justify-center md:justify-start">
             <Link href="https://github.com/sambhav605" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
@@ -64,11 +73,6 @@ export function Hero() {
             >
               Get in Touch
             </Button>
-            <Link href="https://bhugol.sambhavregmi.com.np/" target="_blank" rel="noopener noreferrer">
-    <Button size="lg" variant="outline" className="border-border hover:bg-secondary bg-transparent gap-2">
-      🗺️ Play Bhugol
-    </Button>
-  </Link>
           </div>
         </div>
       </div>
