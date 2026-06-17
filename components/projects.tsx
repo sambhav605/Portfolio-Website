@@ -5,14 +5,6 @@ import Image from "next/image"
 
 const projects = [
   {
-    title: "SelfBalancingRobot",
-    description:
-      "An autonomous two-wheeled robot that maintains balance using PID control and MPU6050 gyroscope sensor. Implements real-time sensor fusion and motor control for stable upright positioning.",
-    tags: ["Arduino", "PID Control", "Robotics", "MPU6050", "Motor Control"],
-    image: "/robot-with-camera-doing-object-detection.jpg",
-    github: "https://github.com/sambhav605/SelfBalancingRobot",
-  },
-  {
     title: "ParkSense-IOT-Arduino",
     description:
       "Smart parking system using IoT sensors to detect available parking spots in real-time. Integrates ultrasonic sensors with cloud connectivity for live parking availability monitoring.",
@@ -28,6 +20,15 @@ const projects = [
     image: "/setu.jpg",
     github: "https://github.com/sambhav605/Setu",
   },
+  {
+  title: "Bhugol",
+  description:
+    "An interactive geography quiz game that challenges you to name all 77 districts of Nepal before the clock runs out. Built to make learning Nepal's geography fun and engaging.",
+  tags: ["Next.js", "TypeScript", "Geography", "Quiz", "Nepal"],
+  image: "/placeholder.svg",   // replace with a screenshot if you have one
+  github: "https://bhugol.sambhavregmi.com.np/",
+  live: "https://bhugol.sambhavregmi.com.np/",
+},
 ]
 
 export function Projects() {
